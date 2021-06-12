@@ -1,7 +1,7 @@
 class Todo < ApplicationRecord
  belongs_to :project
 
-  validates :todoname, :project,
+  validates :text, :project,
             presence: true
 			# checked : false
 
@@ -18,6 +18,6 @@ end
 
 
   def ensure_not_checked
-    errors.add(:todo, "can't be already completed!") if checked?
+    #errors.add(:todo, "can't be already completed!") if checked?
   end
 end
