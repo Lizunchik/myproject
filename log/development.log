@@ -3118,3 +3118,42 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 67ms (Views: 61.5ms | ActiveRecord: 3.2ms | Allocations: 11167)
 
 
+Started GET "/projects" for ::1 at 2021-06-12 16:18:47 +0300
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (3.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:1:in `collect'
+  [1m[36mTodo Load (3.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 2]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 3]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (Duration: 51.7ms | Allocations: 16401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 108.1ms | Allocations: 25995)
+Completed 200 OK in 143ms (Views: 107.0ms | ActiveRecord: 20.8ms | Allocations: 30526)
+
+
+Started GET "/" for ::1 at 2021-06-12 16:18:51 +0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 4708)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 5744)
+
+
+Started GET "/" for ::1 at 2021-06-12 16:18:52 +0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 4631)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 5124)
+
+
