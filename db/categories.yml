@@ -1,0 +1,8 @@
+- name: accessory
+  shortcode: A
+
+- name: laptop
+  shortcode: L
+
+- name: server
+  shortcode: S
