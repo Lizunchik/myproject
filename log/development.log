@@ -6615,3 +6615,42 @@ Processing by TodosController#create as */*
 Completed 201 Created in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 302)
 
 
+Started POST "/todos" for ::1 at 2021-06-12 22:10:36 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:10:37 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:14:04 +0300
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 22:14:06 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 26ms (Views: 0.3ms | ActiveRecord: 17.9ms | Allocations: 5910)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:14:17 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:14:18 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:14:19 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
