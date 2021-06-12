@@ -4338,3 +4338,2169 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 64ms (Views: 58.9ms | ActiveRecord: 3.6ms | Allocations: 10165)
 
 
+Started GET "/projects" for ::1 at 2021-06-12 19:26:56 +0300
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (2.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:1:in `collect'
+  [1m[36mTodo Load (1.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 2]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 3]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (Duration: 51.4ms | Allocations: 16401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 115.1ms | Allocations: 25995)
+Completed 200 OK in 148ms (Views: 113.2ms | ActiveRecord: 20.2ms | Allocations: 30526)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 19:35:38 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (2.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:1:in `collect'
+  [1m[36mTodo Load (2.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (1.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 2]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 3]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (Duration: 103.5ms | Allocations: 15092)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 166.7ms | Allocations: 19610)
+Completed 200 OK in 171ms (Views: 167.8ms | ActiveRecord: 21.4ms | Allocations: 21179)
+
+
+Started GET "/" for ::1 at 2021-06-12 19:35:41 +0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 4714)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 5748)
+
+
+Started GET "/" for ::1 at 2021-06-12 19:35:42 +0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 4631)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms | Allocations: 5124)
+
+
+Started GET "/projects/1/todos/1" for ::1 at 2021-06-12 19:36:18 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/todos/1"):
+  
+Started GET "/projects/1/todos/1" for ::1 at 2021-06-12 19:39:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/todos/1"):
+  
+Started GET "/projects/1/todos/1" for ::1 at 2021-06-12 19:39:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/todos/1"):
+  
+Started GET "/" for ::1 at 2021-06-12 19:39:06 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 28.2ms | Allocations: 229)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 1075)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 19:39:11 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:1:in `collect'
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 2]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 3]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (Duration: 47.8ms | Allocations: 13489)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.6ms | Allocations: 18205)
+Completed 200 OK in 98ms (Views: 66.7ms | ActiveRecord: 27.7ms | Allocations: 20465)
+
+
+Started GET "/projects/todos" for ::1 at 2021-06-12 19:39:27 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"todos"}
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:65:in `set_project'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.7ms | Allocations: 1504)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project with 'id'=todos):
+  
+app/controllers/projects_controller.rb:65:in `set_project'
+Started GET "/projects" for ::1 at 2021-06-12 19:39:32 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:1:in `collect'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 2]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 3]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 5023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.5ms | Allocations: 9635)
+Completed 200 OK in 74ms (Views: 70.2ms | ActiveRecord: 3.6ms | Allocations: 10144)
+
+
+Started GET "/projects/i" for ::1 at 2021-06-12 19:39:36 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"i"}
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:65:in `set_project'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.8ms | Allocations: 1366)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project with 'id'=i):
+  
+app/controllers/projects_controller.rb:65:in `set_project'
+Started GET "/projects/1" for ::1 at 2021-06-12 19:39:40 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:65:in `set_project'
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show.html.erb within layouts/application
+  Rendered projects/show.html.erb within layouts/application (Duration: 24.9ms | Allocations: 3318)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 3403)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.6ms | Allocations: 4815)
+
+
+  
+ActionView::Template::Error (undefined method `edit_project_path' for #<ActionView::Base:0x0002238f5eace0>
+Did you mean?  edit_polymorphic_path):
+    5:   <%= @project.title %>
+    6: </p>
+    7: 
+    8: <%= link_to 'Edit', edit_project_path(@project) %> |
+    9: <%= link_to 'Back', projects_path %>
+  
+app/views/projects/show.html.erb:8
+Started GET "/projects/1" for ::1 at 2021-06-12 19:45:24 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (2.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:66:in `set_project'
+  [1m[36mTodo Load (2.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/controllers/projects_controller.rb:11:in `show'
+Completed 200 OK in 74ms (Views: 9.7ms | ActiveRecord: 18.3ms | Allocations: 13080)
+
+
+Started GET "/projects/1/show" for ::1 at 2021-06-12 19:45:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/show"):
+  
+Started GET "/projects/show" for ::1 at 2021-06-12 19:45:43 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:66:in `set_project'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.8ms | Allocations: 1352)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project with 'id'=show):
+  
+app/controllers/projects_controller.rb:66:in `set_project'
+Started GET "/projects/1" for ::1 at 2021-06-12 19:46:12 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:66:in `set_project'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/controllers/projects_controller.rb:11:in `show'
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 1.4ms | Allocations: 2547)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 19:48:06 +0300
+Processing by ProjectsController#index as HTML
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 4703)
+
+
+  
+NoMethodError (undefined method `with_todos' for #<Class:0x000002238fa995c0>
+Did you mean?  with_options):
+  
+app/controllers/projects_controller.rb:7:in `index'
+Started GET "/projects" for ::1 at 2021-06-12 19:48:20 +0300
+Processing by ProjectsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+  
+NoMethodError (undefined method `todos' for #<Class:0x000002238fe73ce0>):
+  
+app/controllers/projects_controller.rb:7:in `index'
+Started GET "/projects" for ::1 at 2021-06-12 19:50:00 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (1.5ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 82ms (Views: 59.2ms | ActiveRecord: 13.2ms | Allocations: 13612)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 19:50:39 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (1.4ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 1.4ms | Allocations: 2483)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 19:50:40 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (0.9ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.9ms | Allocations: 2488)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 19:57:24 +0300
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (3.6ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 62ms (Views: 29.7ms | ActiveRecord: 15.7ms | Allocations: 16531)
+
+
+Started GET "/" for ::1 at 2021-06-12 19:57:27 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.2ms | Allocations: 352)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 1887)
+
+
+Started GET "/" for ::1 at 2021-06-12 19:57:28 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.8ms | Allocations: 223)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 995)
+
+
+Started GET "/" for ::1 at 2021-06-12 20:04:24 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 46)
+Completed 200 OK in 4ms (Views: 2.9ms | Allocations: 467)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 20:04:28 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (2.9ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 65ms (Views: 9.9ms | ActiveRecord: 13.6ms | Allocations: 12910)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 20:04:28 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (1.1ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 1.1ms | Allocations: 2476)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 20:05:03 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (1.1ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 11.6ms | ActiveRecord: 17.7ms | Allocations: 11277)
+
+
+Started GET "/todos" for ::1 at 2021-06-12 20:09:12 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/todos"):
+  
+Started GET "/todos" for ::1 at 2021-06-12 20:11:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/todos"):
+  
+Started GET "/projects/1/todos/1" for ::1 at 2021-06-12 20:12:56 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/todos/1"):
+  
+Started GET "/projects" for ::1 at 2021-06-12 20:13:26 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (4.3ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 69ms (Views: 11.5ms | ActiveRecord: 17.2ms | Allocations: 13007)
+
+
+Started GET "/projects/1" for ::1 at 2021-06-12 20:14:07 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:67:in `set_project'
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/controllers/projects_controller.rb:12:in `show'
+Completed 200 OK in 35ms (Views: 28.3ms | ActiveRecord: 1.9ms | Allocations: 6122)
+
+
+Started GET "/projects/todos" for ::1 at 2021-06-12 20:15:22 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"todos"}
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:67:in `set_project'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.7ms | Allocations: 1370)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project with 'id'=todos):
+  
+app/controllers/projects_controller.rb:67:in `set_project'
+Started GET "/projects/1/todo/1" for ::1 at 2021-06-12 20:16:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/todo/1"):
+  
+Started GET "/projects" for ::1 at 2021-06-12 20:30:29 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (5.0ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 59ms (Views: 5.1ms | ActiveRecord: 17.2ms | Allocations: 5655)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 20:30:34 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (0.8ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.8ms | Allocations: 2433)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 20:31:02 +0300
+  
+SyntaxError (C:/Sites/myproject/app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input
+app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input
+app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 20:32:53 +0300
+  
+SyntaxError (C:/Sites/myproject/app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input
+app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input
+app/controllers/todos_controller.rb:62: syntax error, unexpected end, expecting end-of-input
+Started GET "/projects" for ::1 at 2021-06-12 20:33:53 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (0.9ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.9ms | Allocations: 2441)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 20:35:23 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (1.4ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 9.4ms | ActiveRecord: 18.3ms | Allocations: 11270)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 20:35:39 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 511)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:36:02 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 473)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started PATCH "/projects/todo/id" for ::1 at 2021-06-12 20:36:51 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/todo/id"):
+  
+Started GET "/projects" for ::1 at 2021-06-12 20:40:16 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (1.4ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 27ms (Views: 9.5ms | ActiveRecord: 10.5ms | Allocations: 11020)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 20:40:38 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 518)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:42:26 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 486)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:42:59 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 486)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:44:12 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 486)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:47:16 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 486)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:47:39 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 521)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/projects" for ::1 at 2021-06-12 20:52:17 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/projects"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 20:58:11 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 469)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/todos" for ::1 at 2021-06-12 20:59:09 +0300
+Processing by TodosController#create as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 448)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (6.1.3.2) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `each'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:512:in `invoke_before'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/projects" for ::1 at 2021-06-12 21:02:14 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/projects_controller.rb:1:in `<main>'
+Started GET "/projects" for ::1 at 2021-06-12 21:02:17 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (3.7ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 89ms (Views: 9.7ms | ActiveRecord: 39.0ms | Allocations: 14439)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:02:36 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 643)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:03:47 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/projects" for ::1 at 2021-06-12 21:04:25 +0300
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/projects"):
+  
+Started POST "/projects" for ::1 at 2021-06-12 21:04:29 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/projects"):
+  
+Started GET "/projects" for ::1 at 2021-06-12 21:04:37 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/projects_controller.rb:1:in `<main>'
+Started GET "/projects" for ::1 at 2021-06-12 21:04:44 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (4.0ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 41ms (Views: 16.7ms | ActiveRecord: 15.9ms | Allocations: 15726)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 21:04:47 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (1.0ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 1.0ms | Allocations: 2402)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:05:13 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 601)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:05:15 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 0ms (ActiveRecord: 0.0ms | Allocations: 599)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:05:16 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:05:19 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 0ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:05:22 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:05:36 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:05:38 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 0ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started GET "/projects" for ::1 at 2021-06-12 21:05:50 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (1.8ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 1.8ms | Allocations: 2384)
+
+
+Started POST "/projects" for ::1 at 2021-06-12 21:06:35 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/projects"):
+  
+Started POST "/todos" for ::1 at 2021-06-12 21:06:45 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:09:00 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:09:15 +0300
+Processing by TodosController#create as */*
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1983)
+
+
+  
+NameError (undefined local variable or method `err' for #<TodosController:0x0002097b09b0d8>):
+  
+app/controllers/todos_controller.rb:6:in `create'
+Started POST "/todos" for ::1 at 2021-06-12 21:09:49 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:09:54 +0300
+Processing by TodosController#create as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:11:20 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:11:22 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 6ms (ActiveRecord: 3.1ms | Allocations: 1999)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:11:23 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:11:26 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:13:43 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:13:44 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 8ms (ActiveRecord: 3.2ms | Allocations: 2170)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:13:45 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 2ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:14:35 +0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:14:43 +0300
+Processing by TodosController#create as */*
+Completed 404 Not Found in 11ms (ActiveRecord: 4.0ms | Allocations: 3005)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Project without an ID):
+  
+app/controllers/todos_controller.rb:25:in `set_or_create_project'
+Started POST "/todos" for ::1 at 2021-06-12 21:16:45 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:16:46 +0300
+Processing by TodosController#create as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 248)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:18:17 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:18:19 +0300
+Processing by TodosController#create as */*
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 6.7ms | Allocations: 5432)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:18:21 +0300
+Processing by TodosController#create as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 227)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:18:57 +0300
+  
+SyntaxError (C:/Sites/myproject/app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+Started POST "/todos" for ::1 at 2021-06-12 21:18:58 +0300
+  
+SyntaxError (C:/Sites/myproject/app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+Started POST "/todos" for ::1 at 2021-06-12 21:18:59 +0300
+  
+SyntaxError (C:/Sites/myproject/app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+Started POST "/todos" for ::1 at 2021-06-12 21:19:00 +0300
+  
+SyntaxError (C:/Sites/myproject/app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+app/controllers/todos_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+Started POST "/todos" for ::1 at 2021-06-12 21:19:27 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 21:19:28 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 10ms (Views: 0.2ms | ActiveRecord: 3.5ms | Allocations: 4673)
+
+
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:00 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:02 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:03 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:04 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:05 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:31 +0300
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:22:40 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todo/1"):
+  
+Started GET "/projects" for ::1 at 2021-06-12 21:22:47 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/projects_controller.rb:1:in `<main>'
+Started GET "/projects/1/todo/1" for ::1 at 2021-06-12 21:23:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/projects/1/todo/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:23:46 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (2.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 9.3ms | Allocations: 7181)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:24:25 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:24:26 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:24:27 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:24:31 +0300
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:24:32 +0300
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:24:33 +0300
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:24:33 +0300
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:25:03 +0300
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:25:04 +0300
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todo/1" for ::1 at 2021-06-12 21:25:08 +0300
+  
+ActionController::RoutingError (uninitialized constant TodoController
+Did you mean?  TodosController):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:25:11 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:25:12 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:25:13 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:25:14 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/projects/1/todos/1"):
+  
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:25:22 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:25:23 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (2.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 9.1ms | Allocations: 7345)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:26:47 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 974)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:26:48 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.7ms | Allocations: 987)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:27:15 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:27:16 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:24:in `set_todo'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 4.4ms | Allocations: 7306)
+
+
+  
+NoMethodError (undefined method `checked?' for #<Todo:0x00000210d476f228>):
+  
+app/controllers/todos_controller.rb:14:in `update'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:27:18 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:24:in `set_todo'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms | Allocations: 2851)
+
+
+  
+NoMethodError (undefined method `checked?' for #<Todo:0x00000210d3107288>):
+  
+app/controllers/todos_controller.rb:14:in `update'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:30:27 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:30:28 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1132)
+
+
+  
+SyntaxError (C:/Sites/myproject/app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+			checked : false
+			        ^):
+  
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:20:in `set_todo'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:30:29 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1104)
+
+
+  
+SyntaxError (C:/Sites/myproject/app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+			checked : false
+			        ^):
+  
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:20:in `set_todo'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:30:30 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1104)
+
+
+  
+SyntaxError (C:/Sites/myproject/app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+			checked : false
+			        ^):
+  
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:20:in `set_todo'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:31:06 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:31:08 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1132)
+
+
+  
+SyntaxError (C:/Sites/myproject/app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+			checked : false
+			        ^):
+  
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:17:in `set_todo'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:31:09 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1104)
+
+
+  
+SyntaxError (C:/Sites/myproject/app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+			checked : false
+			        ^):
+  
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/models/todo.rb:6: syntax error, unexpected ':', expecting =>
+app/controllers/todos_controller.rb:17:in `set_todo'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:31:38 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:31:40 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 5.6ms | Allocations: 5414)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:11 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:12 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 5.1ms | Allocations: 5431)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:14 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 986)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:27 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:28 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 5.6ms | Allocations: 5426)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:29 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.6ms | Allocations: 973)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:51 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:35:52 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 4.9ms | Allocations: 5419)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:37:17 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:37:18 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:22:in `set_todo'
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 5.6ms | Allocations: 5693)
+
+
+  
+ActiveModel::MissingAttributeError (can't write unknown attribute `is_opened`):
+  
+app/controllers/todos_controller.rb:14:in `update'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:37:19 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:22:in `set_todo'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.5ms | Allocations: 1311)
+
+
+  
+ActiveModel::MissingAttributeError (can't write unknown attribute `is_opened`):
+  
+app/controllers/todos_controller.rb:14:in `update'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:37:20 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:22:in `set_todo'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 1310)
+
+
+  
+ActiveModel::MissingAttributeError (can't write unknown attribute `is_opened`):
+  
+app/controllers/todos_controller.rb:14:in `update'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:37:44 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:37:46 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:22:in `set_todo'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 5.2ms | Allocations: 7310)
+
+
+  
+NoMethodError (undefined method `is_opened' for #<Todo:0x00000210d218a878>
+Did you mean?  is_opened?):
+  
+app/controllers/todos_controller.rb:14:in `update'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:38:26 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:38:27 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:22:in `set_todo'
+Completed 422 Unprocessable Entity in 13ms (Views: 0.2ms | ActiveRecord: 4.9ms | Allocations: 5348)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:39:18 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:39:19 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:23:in `set_todo'
+Completed 422 Unprocessable Entity in 14ms (Views: 0.1ms | ActiveRecord: 5.3ms | Allocations: 5350)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:39:20 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:23:in `set_todo'
+Completed 422 Unprocessable Entity in 4ms (Views: 0.1ms | ActiveRecord: 0.6ms | Allocations: 961)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:44:26 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:44:28 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:18:in `set_todo'
+No template found for TodosController#update, rendering head :no_content
+Completed 204 No Content in 23ms (ActiveRecord: 6.0ms | Allocations: 7010)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:44:50 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:44:51 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 4.9ms | Allocations: 5452)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 21:49:09 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (3.0ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 32ms (Views: 12.6ms | ActiveRecord: 8.2ms | Allocations: 9985)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:49:21 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 325)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:50:01 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 1044)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:51:05 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:51:07 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 16ms (Views: 0.9ms | ActiveRecord: 5.2ms | Allocations: 5516)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:51:10 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 1043)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:51:51 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:51:52 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:19:in `set_todo'
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 6.0ms | Allocations: 5516)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:52:32 +0300
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:52:34 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 12ms (Views: 0.9ms | ActiveRecord: 4.4ms | Allocations: 5442)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 21:52:42 +0300
+Processing by ProjectsController#index as */*
+  [1m[35mSQL (2.3ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 18ms (Views: 7.1ms | ActiveRecord: 7.3ms | Allocations: 6720)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 21:52:53 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started PATCH "/projects/1/todos/1" for ::1 at 2021-06-12 21:53:48 +0300
+Processing by TodosController#update as */*
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:17:in `set_todo'
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 1044)
+
+
