@@ -1,1 +1,4 @@
 projects
+<%= @projects %>
+<hr>
+<%= @projects.collect { |item| {:id => item.id, :todos => item.todos}}.to_json%>
