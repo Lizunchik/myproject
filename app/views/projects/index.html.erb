@@ -3,3 +3,5 @@ projects
 <%= @projects %>
 <hr>
 <%= @projects.to_json%>
+<hr>
+<%= @projects.collect { |item| {:id => item.id, :todos => item.todos}}.to_json%>
