@@ -3255,3 +3255,32 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms | Allocations: 5153)
 
 
+Started GET "/projects" for ::1 at 2021-06-12 16:41:42 +0300
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 250)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.5ms | Allocations: 9937)
+Completed 200 OK in 100ms (Views: 85.8ms | ActiveRecord: 0.0ms | Allocations: 14467)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 16:42:05 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (1.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:4:in `collect'
+  [1m[36mTodo Load (2.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 1]]
+  ↳ app/views/projects/index.html.erb:4
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 2]]
+  ↳ app/views/projects/index.html.erb:4
+  [1m[36mTodo Load (1.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 3]]
+  ↳ app/views/projects/index.html.erb:4
+  Rendered projects/index.html.erb within layouts/application (Duration: 49.1ms | Allocations: 16493)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 89.2ms | Allocations: 21188)
+Completed 200 OK in 95ms (Views: 74.4ms | ActiveRecord: 19.2ms | Allocations: 22470)
+
+
