@@ -6563,3 +6563,55 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.8ms | Allocations: 2427)
 
 
+Started GET "/projects" for ::1 at 2021-06-12 22:05:37 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (1.1ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 1.1ms | Allocations: 2444)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 22:05:37 +0300
+Processing by ProjectsController#index as HTML
+  [1m[35mSQL (0.9ms)[0m  [1m[34mSELECT "projects"."id" AS t0_r0, "projects"."title" AS t0_r1, "projects"."created_at" AS t0_r2, "projects"."updated_at" AS t0_r3, "todos"."id" AS t1_r0, "todos"."text" AS t1_r1, "todos"."isCompleted" AS t1_r2, "todos"."project_id" AS t1_r3, "todos"."created_at" AS t1_r4, "todos"."updated_at" AS t1_r5 FROM "projects" LEFT OUTER JOIN "todos" ON "todos"."project_id" = "projects"."id" WHERE "todos"."id" IS NOT NULL ORDER BY "projects"."updated_at" ASC[0m
+  ↳ app/controllers/projects_controller.rb:7:in `index'
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.9ms | Allocations: 2429)
+
+
+Started GET "/" for ::1 at 2021-06-12 22:05:39 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.3ms | Allocations: 228)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 1017)
+
+
+Started GET "/" for ::1 at 2021-06-12 22:05:40 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 464)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:05:51 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:08:44 +0300
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/todos_controller.rb:1:in `<main>'
+Started POST "/todos" for ::1 at 2021-06-12 22:08:45 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 16ms (Views: 0.3ms | ActiveRecord: 6.6ms | Allocations: 5910)
+
+
+Started POST "/todos" for ::1 at 2021-06-12 22:08:46 +0300
+Processing by TodosController#create as */*
+Completed 201 Created in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
