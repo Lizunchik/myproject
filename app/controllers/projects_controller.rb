@@ -3,11 +3,16 @@ class ProjectsController < ApplicationController
 
   # GET /projects or /projects.json
   def index
-    @projects = Project.all
+    # @projects = Project.all
+	render json: Project.with_todos
   end
 
   # GET /projects/1 or /projects/1.json
   def show
+	render json: @project.todos
+  end
+  
+  def refresh
   end
 
   # GET /projects/new
