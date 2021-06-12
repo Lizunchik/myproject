@@ -3784,3 +3784,97 @@ puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
 puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
 puma (5.3.2) lib/puma/server.rb:438:in `process_client'
 puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-06-12 18:40:33 +0300
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 234)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.2ms | Allocations: 9906)
+Completed 200 OK in 91ms (Views: 81.3ms | ActiveRecord: 0.0ms | Allocations: 12546)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 18:40:37 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (2.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:5
+  [1m[36mTodo Load (2.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 4]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 5]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 6]]
+  ↳ app/views/projects/index.html.erb:7
+  Rendered projects/index.html.erb within layouts/application (Duration: 203.8ms | Allocations: 16770)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 252.5ms | Allocations: 21286)
+Completed 200 OK in 263ms (Views: 238.8ms | ActiveRecord: 18.5ms | Allocations: 23935)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 18:40:37 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:5
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 4]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 5]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 6]]
+  ↳ app/views/projects/index.html.erb:7
+  Rendered projects/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 5281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 9891)
+Completed 200 OK in 62ms (Views: 58.0ms | ActiveRecord: 3.4ms | Allocations: 10399)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 18:43:53 +0300
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (2.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:5
+  [1m[36mTodo Load (3.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 4]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 5]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 6]]
+  ↳ app/views/projects/index.html.erb:7
+  Rendered projects/index.html.erb within layouts/application (Duration: 55.4ms | Allocations: 16710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 115.3ms | Allocations: 26302)
+Completed 200 OK in 151ms (Views: 117.1ms | ActiveRecord: 20.2ms | Allocations: 30833)
+
+
+Started GET "/" for ::1 at 2021-06-12 18:44:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 4707)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 5743)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 18:44:12 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:5
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 4]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 5]]
+  ↳ app/views/projects/index.html.erb:7
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = $1[0m  [["project_id", 6]]
+  ↳ app/views/projects/index.html.erb:7
+  Rendered projects/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 5291)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.9ms | Allocations: 9906)
+Completed 200 OK in 64ms (Views: 59.2ms | ActiveRecord: 4.3ms | Allocations: 10423)
+
+
